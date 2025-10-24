@@ -1,4 +1,4 @@
-# Satellite Tracker (Rastreador de Satélites)
+# CelestiaTracker (Rastreador de Satélites)
 
 **Resumo**
 
