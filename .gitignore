@@ -1,6 +1,63 @@
-# Ignorar o ambiente virtual e credenciais
+# Ambiente virtual
 .venv/
-__pycache__/
+venv/
+env/
+ENV/
+
+# Variáveis de ambiente
 .env
-logs
-/app/models
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Arquivos temporários
+*.tmp
+*.temp
+fix_css.txt
+
+# Banco de dados
+*.db
+*.sqlite
+*.sqlite3
+
+# Cache
+.cache/
+*.cache
